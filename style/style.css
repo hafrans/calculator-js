@@ -1,0 +1,84 @@
+/**
+* Hafrans Style Sheet
+*/
+p{
+	color:white;
+	text-align:center;
+	font-size:10px;
+}
+body{
+	background: url(../images/bgp.jpg) center fixed;
+	width:75%;
+	max-width:1080px;
+	min-height:1024px;
+	overflow:hidden;
+	font-family:"方正兰亭超细黑简体";
+	font-weight:bold;
+	font-size:1.4em;
+	margin:auto auto;
+
+}
+
+article{
+	
+	margin:12.5% auto;
+	width:332px;
+	height:559px;
+	background:rgb(32,32,32);
+	padding:0;
+	
+}
+.numPanel{
+	margin: 0px auto;
+	text-align:right;
+	width:98%;
+	height:85px;
+	color:rgba(255,255,255,1.00);
+	font-size:60px;
+	padding-top:23px;	
+}
+table{
+	margin:1px 2px ;
+}
+tr{
+	margin:0 0;
+}
+.numbtn{
+	transition: all 0.2s;
+	margin:0px 0px;
+	border-left:rgba(0,0,0,1.00) 0px solid ;
+	border-right:rgba(0,0,0,1.00) 0px solid ;
+	border-top:rgba(0,0,0,1.00) 0px solid ;
+	border-bottom:rgba(0,0,0,1.00) 0px solid ;
+	width:80px;
+	height:80px;
+	background:rgba(212,212,212,1.00);
+	display:inline-block;
+	color:rgba(0,0,0,1.00);
+	font-size:50px;
+	
+}
+.numbtn:hover{
+	background:rgba(121,121,121,1.00);
+	color:
+}
+.operationbtn{
+	transition: all 0.2s;
+	margin:0px 0px;
+	border-left:rgba(0,0,0,1.00) 0px solid ;
+	border-right:rgba(0,0,0,1.00) 0px solid ;
+	border-top:rgba(0,0,0,1.00) 0px solid ;
+	border-bottom:rgba(0,0,0,1.00) 0px solid ;
+	width:80px;
+	height:80px;
+	background:rgba(247,141,41,1.00);
+	display:inline-block;
+	color:rgba(0,0,0,1.00);
+	font-size:30px;
+	
+}
+.operationbtn:hover{
+	
+	background:rgba(195,79,0,1.00);
+	color:rgba(255,255,255,1.00);
+}
